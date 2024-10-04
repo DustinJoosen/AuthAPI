@@ -1,0 +1,13 @@
+Fixes:
+-file type checking.
+-maaaaaybe think about splitting userService into an authservice and an userservice.
+-have the frontend uri be dynamic
+-remove avatar from registration.
+
+Things I will need to make in the future, and thus will need to be remembered when future-proofing:
+-Updating user data (name, avatar etc.).
+-Better looking emails lmao.
+-Most recent login.
+-API key for the entire api, so that you can only use the api from the site.
+-OAuth
+-Cancellation tokens

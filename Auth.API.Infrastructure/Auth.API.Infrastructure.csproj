@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.API.Abstractions\Auth.API.Abstractions.csproj" />
+    <ProjectReference Include="..\Auth.API.Core\Auth.API.Core.csproj" />
+    <ProjectReference Include="..\Auth.API.Persistence\Auth.API.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
